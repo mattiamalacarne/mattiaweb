@@ -9,6 +9,7 @@ const Hero = () => {
     const [isDesktop, setIsDesktop] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
 
+
     useEffect(() => {
         if (window.innerWidth > 769) {
           setIsDesktop(true);
@@ -27,7 +28,7 @@ const Hero = () => {
                     <h1 className = 'hero-title'>
                         Ciao, il mio nome è <span className = 'text-color-main'>Mattia</span>
                         <br />
-                        Uno sviluppatore un po' a caso
+                        E sono uno sviluppatore un po' a caso
                     </h1>
                 </Fade>
             </Container>
