@@ -39,6 +39,7 @@
       align-content: center;
       width: 350px;
       height: 350px;
+      object-fit: cover;
 
       @include respond(tab-port) {
         width: 300px;

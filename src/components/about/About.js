@@ -30,7 +30,7 @@ const About = () => {
                   <Col align = "center">
                     <div>
                       <Flip left>
-                        <Image className = "abt-img" src = "https://via.placeholder.com/300.png" />
+                        <Image className = "abt-img" src = {process.env.PUBLIC_URL + "/profile.jpeg"} />
                       </Flip>
                     </div>
                   </Col>

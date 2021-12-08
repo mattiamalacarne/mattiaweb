@@ -66,7 +66,7 @@ const Project = ({project}) => {
             </Col>
             <Col lg = {7} xl = {6}>
                 <Fade right = {isDesktop} bottom = {isMobile}>
-                    <Image className = "prj-image" src = "https://via.placeholder.com/657x368.png" />
+                    <Image className = "prj-image" src = {project.img} />
                 </Fade>
             </Col>
         </Row>
